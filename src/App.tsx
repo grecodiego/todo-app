@@ -10,9 +10,9 @@ import { theme } from './theme/theme'
 
 function App() {
 	const todos: Array<{ text: String; completed: boolean }> = [
-		{ text: 'Cortar cebolla', completed: false },
-		{ text: 'Tomar el curso de intro a React', completed: false },
-		{ text: 'Llorar con la llorona', completed: false },
+		{ text: 'Comprar pan', completed: false },
+		{ text: 'Comprar hojas A4', completed: false },
+		{ text: 'Ver House of the Dragon', completed: false },
 	]
 	return (
 		<ThemeProvider theme={theme}>
